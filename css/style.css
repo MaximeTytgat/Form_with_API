@@ -25,13 +25,14 @@ input {
     box-shadow: 1px 3px 3px #00000030;
     border: none;
     display: block;
-    margin: 5px 5px 20px 5px;
+    margin: 5px 0;
     width: 300px;
     height: 30px;
 }
 
 .input_group {
     position: relative;
+    margin: 15px 0;
 }
 
 input:focus {
@@ -75,6 +76,12 @@ input:focus {
     border: solid 1px #18b135;
     background-color: #fff;
     color: #18b135;
+}
+
+.alert_messages > * {
+    display: none;
+    color: #cc0033;
+    font-size: 12px;
 }
 
 .error label {

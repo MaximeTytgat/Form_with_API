@@ -10,14 +10,15 @@
     
     <form action="" >
 
-      <div class="input_group">
+      <div class="input_group" id="siret">
         <label for="entreprise_siret">SIRET de l'entreprise:</label>
         <input type="text" id="entreprise_siret" value="">
         <button class="fill_in_width_siret">Fill in the company information</button>
-<!--        <div class="alert_messages">-->
-<!--          <div class="not_find">l'entreprise n'a pas été trouvée dans la base de données</div>-->
-<!--          <div class="error_number"></div>-->
-<!--        </div>-->
+        <div class="alert_messages">
+          <div class="not_find">l'entreprise n'a pas été trouvée dans la base de données</div>
+          <div class="invalid_content">le numéro n'est pas composé de 14 chiffres</div>
+          <div class="invalid">le numéro n'est pas valide</div>
+        </div>
       </div>
 
       <div class="input_group">
@@ -67,9 +68,3 @@
     <script src="js/script.js"></script>
 </body>
 </html>
-
-<!-- tout l 'adresse
-rue voie 
-ville
-telephone
-code postale -->
